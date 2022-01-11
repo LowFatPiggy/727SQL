@@ -1,16 +1,16 @@
--- ÇÑ ÁÙ ÁÖ¼®
+-- í•œ ì¤„ ì£¼ì„
 /*
-    ¿©·¯ÁÙ
-    ÁÖ¼®
+    ì—¬ëŸ¬ì¤„
+    ì£¼ì„
 */
 
-SELECT * FROM DBA_USERS; -- ÇöÀç ¸ðµç °èÁ¤µé¿¡ ´ëÇØ Á¶È¸ÇÏ´Â ¸í·É¹®
+SELECT * FROM DBA_USERS; -- í˜„ìž¬ ëª¨ë“  ê³„ì •ë“¤ì— ëŒ€í•´ ì¡°íšŒí•˜ëŠ” ëª…ë ¹ë¬¸
 
--- ÀÏ¹Ý »ç¿ëÀÚ°èÁ¤ »ý¼ºÇÏ´Â ±¸¹® (¿ÀÁ÷ °ü¸®ÀÚ °èÁ¤¿¡¼­¸¸ °¡´É)
--- [Ç¥Çö¹ý] CREATE USER °èÁ¤¸í IDENFIED BY ºñ¹Ð¹øÈ£;
-CREATE USER kh IDENTIFIED BY kh;
+-- ì¼ë°˜ ì‚¬ìš©ìžê³„ì • ìƒì„±í•˜ëŠ” êµ¬ë¬¸ (ì˜¤ì§ ê´€ë¦¬ìž ê³„ì •ì—ì„œë§Œ ê°€ëŠ¥)
+-- [í‘œí˜„ë²•] CREATE USER ê³„ì •ëª… IDENFIED BY ë¹„ë°€ë²ˆí˜¸;
+CREATE USER gy IDENTIFIED BY gy;
 
--- »ý¼º ÈÄ ÀÏ¹Ý »ç¿ëÀÚ°èÁ¤¿¡°Ô ÃÖ¼ÒÇÑÀÇ ±ÇÇÑ(µ¥ÀÌÅÍ°ü¸®, Á¢¼Ó) ºÎ¿©
--- [Ç¥Çö¹ý] GRANT ±ÇÇÑ1, ±ÇÇÑ2, .. TO °èÁ¤¸í;
-GRANT RESOURCE, CONNECT TO KH; -- °èÁ¤¸íÀº ´ë¼Ò¹®ÀÚ °¡¸®Áö ¾ÊÀ½
+-- ìƒì„± í›„ ì¼ë°˜ ì‚¬ìš©ìžê³„ì •ì—ê²Œ ìµœì†Œí•œì˜ ê¶Œí•œ(ë°ì´í„°ê´€ë¦¬, ì ‘ì†) ë¶€ì—¬
+-- [í‘œí˜„ë²•] GRANT ê¶Œí•œ1, ê¶Œí•œ2, .. TO ê³„ì •ëª…;
+GRANT RESOURCE, CONNECT TO GY; -- ê³„ì •ëª…ì€ ëŒ€ì†Œë¬¸ìž ê°€ë¦¬ì§€ ì•ŠìŒ
 
